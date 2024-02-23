@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#atlo fsabaa
+
+pkill -f -SIGKILL 7-highlander

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#kaywri finas
+
+while true
+do
+	echo "To infinity and beyond"
+	sleeep 2
+	trap "echo 'I am invincible!!!'" SIGTERM
+done
