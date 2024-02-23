@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#kaywari khtotat
+
+ps aux --forest | grep bash
