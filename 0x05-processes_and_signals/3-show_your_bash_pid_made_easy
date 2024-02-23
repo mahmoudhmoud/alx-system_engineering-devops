@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #kayrih fin
 
-pgrep -1 bash
+pgrep bash -l
