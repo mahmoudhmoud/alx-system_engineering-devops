@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# sllam alih tam
+
+i=1
+
+while [ "$i" -lt 11 ]; do
+  echo "Best School"
+  
+  # golih szra
+  if [ "$i" -eq 9 ]; then
+    echo "Hi"
+  fi
+
+  ((i++))
+done
