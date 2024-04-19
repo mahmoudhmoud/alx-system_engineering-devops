@@ -1,10 +1,10 @@
 file {
-'school':
+'/tmp/school':
+  ensure  => 'file',
   content => 'I love Puppet',
+  owner   => 'www-data',
   group   => 'www-data',
   mode    => '0744',
-  owner   => 'www-data',
-  path    => '/tmp/school',
 
 }
-# sawab milaf fih
+# make a tmp file
