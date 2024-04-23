@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# dakhal Nginx lnidam
+
+apt-get -y install nginx
+apt-get update
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
+service nginx start
+#ikhadam Nginx fih
