@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#kad ftiradi issaewwb
+# kado idir lmatlob tam
+
+sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 sudo service nginx restart
-sudo sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
 echo "" | sudo dd status=none of=/run/nginx.pid
